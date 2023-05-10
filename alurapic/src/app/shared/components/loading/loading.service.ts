@@ -8,7 +8,7 @@ import { startWith } from 'rxjs/operators';
 })
 export class LoadingService {
 
-  loadingSubject = new Subject<LoadingType>;
+  loadingSubject = new Subject<LoadingType>();
 
   getLoading(){
     return this.loadingSubject
